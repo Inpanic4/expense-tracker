@@ -13,11 +13,15 @@ return new class extends Migration
     {
         Schema::create('expenses', function (Blueprint $table) {
             $table->id();
+            // when delete user delete also the expense value associated with the user
+            $table->foreignId('user_id')->constrained()->cascadeOnDelete();
+            $table->date('date');
             $table->string('category');
             $table->string('title');
-            $table->string('description');
-            $table->integer('cost');
-            $table->string('path');
+            $table->string('description')->nullable();
+            // decimal max size 12 decimal size 2
+            $table->decimal('cost', 12, 2);
+            $table->string('path')->nullable();
             $table->timestamps();
         });
     }
