@@ -38,3 +38,24 @@ There is no need to install a frontend framework because the only functionality 
 Make middlewares to protect routes
 
 Upload images and serve them privately
+
+
+Installation
+
+composer install
+Rename .env.example to .env
+php artisan key:generate
+npm install
+npm run dev
+
+Admin user:
+admin@example.com
+password
+
+Employee:
+employee@gmail.com
+password
+
+Employee2:
+employee2@gmail.com
+password
