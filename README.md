@@ -1,17 +1,22 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-An expense tracker demo project for a company where an admin can check the employees' expenses. Employees can upload and edit their expenses having as an option to upload also an image of the receipt which will be viewable only to the admin or receipt's owner. All the expenses are viewed within a calendar using the fullCalendar library.
+An expense tracker demo project for a company where an admin(company's CEO) can check the employees' expenses. Employees can upload and edit their expenses having as an option to upload also an image of the receipt which will be viewable only to the admin or receipt's owner. All the expenses are viewed within a calendar using the fullCalendar library.
 
 
 
 ### Built With
 
 *Laravel 10
+
 *Npm latest
+
 *TailwindCSS
+
 *Vite
+
 *AlpineJS
+
 *FullCalendar
 
 <!-- GETTING STARTED -->
@@ -21,7 +26,6 @@ Instrunctions on how to set up the project locally
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
 * npm@latest
 * php 8.1 or higher
 * laravel 10
