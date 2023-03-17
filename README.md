@@ -63,7 +63,6 @@ Instrunctions on how to set up the project locally
    ```
    
 7.migrate the database and seed with test users and expenses
-
     ```sh
     php artisan migrate:fresh --seed
        ```
