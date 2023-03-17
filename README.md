@@ -83,5 +83,6 @@ password
 
 ## ERD
 
-![Διάγραμμα δραστηριοτητων](https://user-images.githubusercontent.com/36853896/225879610-7baee3f2-a522-4c08-8ecd-02a857c8287d.png)
+![Διάγραμμα δραστηριοτητων (1)](https://user-images.githubusercontent.com/36853896/225883991-ffb252b5-d09e-45f8-ad5b-50731762fea7.png)
+
 
