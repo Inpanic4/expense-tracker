@@ -40,16 +40,20 @@ Instrunctions on how to set up the project locally
    ```sh
    git clone https://github.com/Inpanic4/expense-tracker.git
    ```
+   
 2. Rename .env.example to .env and add your locally db credentials
+
 3. Install depedencies from composer.lock   
      ```sh
    composer install
    ```
+   
 4. Generate application's key
     ```sh 
     php artisan key:generate
     ```
-8. Install NPM packages
+    
+5. Install NPM packages
    ```sh
    npm install
    ```
@@ -57,6 +61,7 @@ Instrunctions on how to set up the project locally
      ```sh
    npm run dev
    ```
+   
 7.migrate the database and seed with test users and expenses
   ```sh
     php artisan migrate:fresh --seed
