@@ -58,14 +58,14 @@ Instrunctions on how to set up the project locally
    npm install
    ```
 6. run the dev script defined inside a package.json file
-     ```sh
+   ```sh
    npm run dev
    ```
    
 7.migrate the database and seed with test users and expenses
     ```sh
-    php artisan migrate:fresh --seed
-    ```
+   php artisan migrate:fresh --seed
+   ```
    
    
    
