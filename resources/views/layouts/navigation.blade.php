@@ -110,6 +110,24 @@
             </x-responsive-nav-link>
         </div>
 
+        <div class="pt-2 pb-3 space-y-1">
+            <x-responsive-nav-link :href="route('expense.index')"
+                                   :active="request()->routeIs('expense.index')">
+                {{ __('Expenses') }}
+            </x-responsive-nav-link>
+        </div>
+
+        @if (auth()->user()->id!==1)
+        <div class="pt-2 pb-3 space-y-1">
+
+            <x-responsive-nav-link :href="route('expense.create')"
+                                   :active="request()->routeIs('expense.create')">
+                {{ __('Create Expense') }}
+            </x-responsive-nav-link>
+
+        </div>
+        @endif
+
         <!-- Responsive Settings Options -->
         <div class="pt-4 pb-1 border-t border-gray-200 dark:border-gray-600">
             <div class="px-4">

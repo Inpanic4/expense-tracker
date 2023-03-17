@@ -12,7 +12,7 @@
         <article class="max-w-4xl px-10 my-4 py-6 bg-white rounded-lg shadow-md">
             <header class="flex justify-between items-center">
                 <span class="font-light text-gray-600">{{$expense->date}}</span>
-                <div class="px-2 py-1 bg-gray-600 text-gray-100 font-bold rounded">{{$expense->category}}</div>
+                <div class="px-2 mx-2 py-1 bg-gray-600 text-gray-100 font-bold rounded">{{$expense->category}}</div>
             </header>
             <div class="mt-2">
                 <div class="text-2xl text-gray-700 font-bold">{{$expense->title}}</div>

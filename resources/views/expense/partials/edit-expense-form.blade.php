@@ -99,6 +99,7 @@
             <x-text-input id="cost"
                           name="cost"
                           type="number"
+                          step=".01"
                           class="mt-1 block w-full"
                           :value="old('cost',$expense->cost)"
                           required

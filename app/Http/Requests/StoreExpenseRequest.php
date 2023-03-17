@@ -27,8 +27,7 @@ class StoreExpenseRequest extends FormRequest
             'category' => ['regex:/^[\pL\s]+$/u', 'required',  'min:3', 'max:255'],
             'title' => ['regex:/^[\pL\s]+$/u', 'required', 'min:3', 'max:255'],
             'description' => ['max:255'],
-            // todo fix cost validation when i add 30 or 300
-            'cost' => ['required', 'numeric', 'between:0,9999999999.99'],
+            'cost' => ['required',  'between:0,9999999999.99'],
 
             'image' => ['mimes:jpeg,png,jpg', 'max:1024']
 

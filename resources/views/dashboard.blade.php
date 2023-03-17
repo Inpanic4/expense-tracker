@@ -19,18 +19,22 @@
                     <a href="/expenses/create"
                        class="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
                         <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Add new expense</h5>
+
                         <p class="font-normal text-gray-700 dark:text-gray-400">Here you can make a new expense</p>
+
+
                     </a>
 
                 </div>
                 @endif
                 <div class="p-6 text-gray-900 dark:text-gray-100">
-                    {{-- todo make the cards components --}}
                     {{-- "See Expenses" Card --}}
                     <a href="/expenses"
                        class="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
                         <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">See expenses</h5>
+                        @if (auth()->user()->id!==1)
                         <p class="font-normal text-gray-700 dark:text-gray-400">Here you can see and edit all your expenses</p>
+                        @endif
                     </a>
 
                 </div>

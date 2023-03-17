@@ -38,5 +38,3 @@ There is no need to install a frontend framework because the only functionality 
 Make middlewares to protect routes
 
 Upload images and serve them privately
-
-<!-- todo,cost validation errors, -->
